@@ -10,7 +10,10 @@ A typing trainer that helps you improve your typing speed and accuracy with AI-p
 
 ## 🚀 Setup & Usage
 
-### Quick Start
+### 🌐 Try it Live
+**[Start Typing Now!](https://typing-trainer-sage.vercel.app/)** - No installation needed!
+
+### Local Setup (For developers or self-hosting)
 
 1. **Clone and install**
    ```bash
