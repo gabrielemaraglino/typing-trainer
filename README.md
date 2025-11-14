@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Typing AI Coach 🚀
 
-## Getting Started
+A typing trainer that helps you improve your typing speed and accuracy with AI-powered personalized feedback.
 
-First, run the development server:
+## ✨ What You Can Do
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Take 30-second typing tests** with real-time feedback
+- **Get personalized AI coaching** after each test
+- **Track your progress** with WPM and accuracy scores
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Setup & Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Quick Start
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone and install**
+   ```bash
+   git clone https://github.com/yourusername/typing-trainer.git
+   cd typing-trainer
+   npm install
+   ```
 
-## Learn More
+2. **Add your AI API key**
+   ```bash
+   cp .env.example .env.local
+   ```
+   Edit `.env.local` and add your API key:
+   ```
+   API_KEY=your_api_key_here
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Start the app**
+   ```bash
+   npm run build
+   npm run start
+   ```
+   
+   Open [http://localhost:3000](http://localhost:3000)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### How to Use
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Start typing** the words you see on screen
+2. **Watch the timer** - you have 30 seconds per test
+3. **See real-time feedback** - green for correct, red for mistakes
+4. **Complete the test** and view your WPM and accuracy
+5. **Get AI feedback** for personalized improvement tips
+6. **Click restart** to try again with new words
 
-## Deploy on Vercel
+## 📊 Your Stats
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **WPM (Words Per Minute)** - Based on correctly typed words only
+- **Accuracy** - Percentage of words typed without errors
+- **AI Analysis** - Identifies problem words and technique issues
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🤝 Contributing
+
+Feel free to open issues or submit pull requests to help improve the typing trainer!
+
+---
+
+**Happy typing! 🎉**
